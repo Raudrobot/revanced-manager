@@ -3,10 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Dart
-
-on:
-  push:
+name: fluush:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
@@ -39,4 +36,5 @@ jobs:
       # package:test for this step to succeed. Note that Flutter projects will
       # want to change this to 'flutter test'.
       - name: Run tests
-        run: flutter test
+        run: flutter rest
+        
